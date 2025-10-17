@@ -1,12 +1,8 @@
-# .dockerignore
-# ignore typical clutter
+target/
+!target/*.jar
 .git
 .gitignore
+.mvn/wrapper/maven-wrapper.jar
+mvnw.cmd
 README.md
-*.iml
-.idea
-**/.DS_Store
 
-# allow only the jar from target
-target/*
-!target/*.jar
